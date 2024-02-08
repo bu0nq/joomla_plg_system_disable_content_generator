@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>plg_system_disablecontentgenerator</name>
+    <author>WIKILINE</author>
+    <creationDate>2024-02</creationDate>
+    <copyright>(C) 2024 bu0nq</copyright>
+    <license>MIT</license>
+    <authorEmail>hello@bu0nq.ru</authorEmail>
+    <authorUrl>www.bu0nq.ru</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_DISABLE_CONTENT_GENERATOR_XML_DESCRIPTION</description>
+    <namespace path="src">Joomla\Plugin\System\DisableContentGenerator</namespace>
+    <files>
+        <folder plugin="disablecontentgenerator">services</folder>
+        <folder>src</folder>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/plg_system_disablecontentgenerator.ini</language>
+        <language tag="en-GB">en-GB/plg_system_disablecontentgenerator.sys.ini</language>
+        <language tag="ru-RU">ru-RU/plg_system_disablecontentgenerator.ini</language>
+        <language tag="ru-RU">ru-RU/plg_system_disablecontentgenerator.sys.ini</language>
+    </languages>
+</extension>
